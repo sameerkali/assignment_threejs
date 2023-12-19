@@ -8,12 +8,12 @@ const MouseHover = () => {
       let targets = gsap.utils.toArray(".ball");
       window.addEventListener("mousemove", (e) => {
         gsap.to(targets, {
-          duration: 0.2,
+          duration: 0.4,
           x: e.clientX,
           y: e.clientY,
           ease: "power1.out",
           overwrite: "auto",
-          stagger: 0.02
+          stagger: 0.2
         });
       });
     }, []);

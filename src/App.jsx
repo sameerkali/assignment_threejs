@@ -1,15 +1,15 @@
 import "./tailwind.output.css";
 import Hero from "./components/Hero";
-import Villain from "./components/Villain";
-import MouseHover from "./components/MouseHover";
+// import MouseHover from "./components/MouseHover";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
       <div className="min-h-screen bg-gray-100">
+        <Header />
         <Hero />
-        <Villain />
-        <MouseHover />
+        {/* <MouseHover /> */}
       </div>
     </>
   );
@@ -17,4 +17,3 @@ const App = () => {
 
 export default App;
 
-// https://github.com/robin-dela/hover-effect
