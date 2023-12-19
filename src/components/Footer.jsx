@@ -1,13 +1,13 @@
 const FooterHai = () => {
   return (
-    <div className="flex px-16">
-      <div className=" h-[20rem]">
-        <h1>heading</h1>
-        <h1>get in touch</h1>
-        <input type="text" />
-        <input type="text" />
+    <div className="flex px-16 bg-[#152a31]">
+      <div className=" h-[20rem] bg-gray-800 text-white">
+        <h1 className="mb-10">We’d love to hear from you</h1>
+        <h1 className="mb-10">get in touch</h1>
+        <input className="mb-10" type="text" />
+        <input className="mb-10" type="text" />
       </div>
-      <div className="">
+      <div className=" text-white pt-16 pl-20 pr-48" >
         <div className="flex gap-7">
           <div>
             home
@@ -32,16 +32,24 @@ const FooterHai = () => {
         </div>
         <div>
           <h1>located in</h1>
-          <div className="flex">
+          <div className="flex gap-10">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               sollicitudin, eros id tincidunt feugiat, sem magna tristique nunc,
               viverra vehic
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sollicitudin, eros id tincidunt feugiat, sem magna tristique nunc,
+              viverra vehic
+              
             </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               sollicitudin, eros id tincidunt feugiat, sem magna tristique nunc,
               viverra vehic
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              sollicitudin, eros id tincidunt feugiat, sem magna tristique nunc,
+              viverra vehic
+              Lorem ipsum 
             </p>
           </div>
         </div>
