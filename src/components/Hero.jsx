@@ -10,7 +10,7 @@ const Hero = () => {
 
       {/* Center image */}
       <img
-        src="../../public/ChotaHathi.png"
+        src="ChotaHathi.png"
         alt="Modern SUV driving on a scenic coastal road"
         className="z-10 absolute top-[13rem] ml-[2rem]  w-[35rem]"
       />

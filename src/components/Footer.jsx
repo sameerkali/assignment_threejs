@@ -5,7 +5,7 @@ const FooterHai = () => {
         <div className="flex">
           <img
             className="h-7 relative top-[1.4rem] px-3"
-            src="public/mail.png"
+            src="mail.png"
           />
           <h1 className="mb-10 mt-5  text-xl">
             We would love to hear from you

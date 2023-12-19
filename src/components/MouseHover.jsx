@@ -8,19 +8,19 @@ const MouseHover = () => {
       let targets = gsap.utils.toArray(".ball");
       window.addEventListener("mousemove", (e) => {
         gsap.to(targets, {
-          duration: 0.4,
+          duration: 0.3,
           x: e.clientX,
           y: e.clientY,
           ease: "power1.out",
           overwrite: "auto",
-          stagger: 0.2
+          stagger: 0.02
         });
       });
     }, []);
   
     return (
       <>
-        <div className="min-h-screen bg-gray-100">
+        <div className=" bg-gray-100">
           <div className="ball bg-red-500 w-4 h-4 fixed top-0 left-0 rounded-full"></div>
           <div className="ball bg-green-500 w-4 h-4 fixed top-0 left-0 rounded-full"></div>
           <div className="ball bg-blue-500 w-4 h-4 fixed top-0 left-0 rounded-full"></div>
