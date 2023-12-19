@@ -66,7 +66,7 @@ const Header = () => {
           </button>
 
           {isDropdownOpen && (
-            <div className="absolute w-[8.4rem] top-full right-0 mt-1 bg-white border border-gray-300 shadow-lg rounded-md">
+            <div className=" z-40 absolute w-[8.4rem] top-full right-0 mt-1 bg-white border border-gray-300 shadow-lg rounded-md">
               <ul className="">
                 <li className="hover:bg-gray-200 px-2 py-1">Hindi</li>
                 <li className="px-2 py-1 hover:bg-gray-200">Chinise</li>
