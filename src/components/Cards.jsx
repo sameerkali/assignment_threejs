@@ -21,48 +21,24 @@ export const Card1 = () => {
         <div className="flex space-x-8 ">
           <div>
             <div>
-              <img
-                src="../../public/1.png"
-                alt="Model 1"
-                className="rounded-md"
-              />
+              <img src="1.png" alt="Model 1" className="rounded-md" />
               <p>Milage</p>
             </div>
-            <img
-              src="../../public/1.1.png"
-              alt="Model 1.1"
-              className="rounded-md mt-2"
-            />
+            <img src="1.1.png" alt="Model 1.1" className="rounded-md mt-2" />
           </div>
           <div>
             <div>
-              <img
-                src="../../public/2.png"
-                alt="Model 1"
-                className="rounded-md"
-              />
+              <img src="2.png" alt="Model 1" className="rounded-md" />
               <p>Max Speed</p>
             </div>
-            <img
-              src="../../public/2.2.png"
-              alt="Model 2.2"
-              className="rounded-md mt-2"
-            />
+            <img src="2.2.png" alt="Model 2.2" className="rounded-md mt-2" />
           </div>
           <div>
             <div>
-              <img
-                src="../../public/3.png"
-                alt="Model 1"
-                className="rounded-md"
-              />
+              <img src="3.png" alt="Model 1" className="rounded-md" />
               <p>Full Charging</p>
             </div>
-            <img
-              src="../../public/3.3.png"
-              alt="Model 3.3"
-              className="rounded-md mt-2"
-            />
+            <img src="3.3.png" alt="Model 3.3" className="rounded-md mt-2" />
           </div>
         </div>
       </div>
